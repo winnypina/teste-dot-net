@@ -1,0 +1,11 @@
+﻿@model Web.Models.Item
+
+@{
+    ViewBag.Title = Model.Nome;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Nome</h2>
+<ul>
+    <li>Nome: @Model.Nome</li>
+</ul>
